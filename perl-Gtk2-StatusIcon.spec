@@ -4,7 +4,7 @@
 Summary: Perl module interface to the EggSystemTray library
 Name:    perl-%module
 Version: 0.010
-Release: %mkrel 4
+Release: %mkrel 5
 License: GPL or Artistic
 Group:   Development/GNOME and GTK+
 Source:  %module-%version.tar.bz2
