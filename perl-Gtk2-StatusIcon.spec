@@ -11,9 +11,9 @@ Source0:	%{module}-%{version}.tar.bz2
 URL:		http://gtk2-perl.sf.net/
 BuildRequires:	gtkspell-devel perl-ExtUtils-Depends perl-Gtk2 perl-Gnome2 >= 1.020-2mdk
 BuildRequires:	perl-Glib > 1.00 perl-ExtUtils-PkgConfig 
-BuildRequires:	gnomeui2-devel
+BuildRequires:	pkgconfig(libgnomeui-2.0)
 Buildrequires:	perl-devel
-BuildRequires:	glitz-devel
+BuildRequires:	pkgconfig(glitz)
 Requires:	perl-Gnome2 >= 1.020-2mdk
 
 
@@ -35,6 +35,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 %files
 %doc NEWS examples/*
 %{_mandir}/*/*
-%{perl_vendorarch}/%{fmodule}*
 %{perl_vendorarch}/%{fmodule}.pm
+%{perl_vendorarch}/%{fmodule}
 %{perl_vendorarch}/auto/%{fmodule}
