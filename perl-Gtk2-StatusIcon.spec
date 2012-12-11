@@ -38,3 +38,43 @@ perl Makefile.PL INSTALLDIRS=vendor
 %{perl_vendorarch}/%{fmodule}.pm
 %{perl_vendorarch}/%{fmodule}
 %{perl_vendorarch}/auto/%{fmodule}
+
+
+%changelog
+* Thu Feb 02 2012 Per Ã˜yvind Karlsen <peroyvind@mandriva.org> 0.010-9
++ Revision: 770584
+- use pkgconfig() deps
+- fix files listed multiple times
+- clean up spec
+- svn commit -m mass rebuild of perl extension against perl 5.14.2
+
+* Fri Sep 04 2009 Thierry Vignaud <tv@mandriva.org> 0.010-8mdv2011.0
++ Revision: 430464
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 0.010-7mdv2009.0
++ Revision: 257185
+- rebuild
+
+* Tue Jan 15 2008 Thierry Vignaud <tv@mandriva.org> 0.010-5mdv2008.1
++ Revision: 152115
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <blino@mandriva.org>
+    - restore BuildRoot
+
+* Fri Jun 22 2007 Thierry Vignaud <tv@mandriva.org> 0.010-4mdv2008.0
++ Revision: 43101
+- rebuild
+
+
+* Fri Sep 30 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.010-3mdk
+- Add another buildRequires
+
+* Fri Sep 30 2005 Nicolas Lécureuil <neoclust@mandriva.org> 0.010-2mdk
+- Fix BuildRequires
+
+* Tue Feb 08 2005 Thierry Vignaud <tvignaud@mandrakesoft.com> 0.010-1mdk
+- initial release
+
