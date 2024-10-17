@@ -8,7 +8,7 @@ Release:	11
 License:	GPL or Artistic
 Group:		Development/GNOME and GTK+
 Source0:	%{module}-%{version}.tar.bz2
-URL:		http://gtk2-perl.sf.net/
+URL:		https://gtk2-perl.sf.net/
 BuildRequires:	gtkspell-devel perl-ExtUtils-Depends perl-Gtk2 perl-Gnome2 >= 1.020-2mdk
 BuildRequires:	perl-Glib > 1.00 perl-ExtUtils-PkgConfig 
 BuildRequires:	pkgconfig(libgnomeui-2.0)
